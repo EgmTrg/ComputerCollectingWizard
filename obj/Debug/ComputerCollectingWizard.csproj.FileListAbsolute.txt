@@ -25,3 +25,30 @@ C:\Users\pc\OneDrive\Çalışmalarım\C#\Form\In Progress\ComputerCollectingWiza
 C:\Users\pc\OneDrive\Çalışmalarım\C#\Form\In Progress\ComputerCollectingWizard\bin\Debug\HtmlAgilityPack.dll
 C:\Users\pc\OneDrive\Çalışmalarım\C#\Form\In Progress\ComputerCollectingWizard\bin\Debug\HtmlAgilityPack.pdb
 C:\Users\pc\OneDrive\Çalışmalarım\C#\Form\In Progress\ComputerCollectingWizard\bin\Debug\HtmlAgilityPack.xml
+C:\Users\pc\Desktop\ComputerCollectingWizard\bin\Debug\ComputerCollectingWizard.exe.config
+C:\Users\pc\Desktop\ComputerCollectingWizard\bin\Debug\ComputerCollectingWizard.exe.manifest
+C:\Users\pc\Desktop\ComputerCollectingWizard\bin\Debug\ComputerCollectingWizard.application
+C:\Users\pc\Desktop\ComputerCollectingWizard\bin\Debug\ComputerCollectingWizard.exe
+C:\Users\pc\Desktop\ComputerCollectingWizard\bin\Debug\ComputerCollectingWizard.pdb
+C:\Users\pc\Desktop\ComputerCollectingWizard\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\pc\Desktop\ComputerCollectingWizard\bin\Debug\HtmlAgilityPack.dll
+C:\Users\pc\Desktop\ComputerCollectingWizard\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\pc\Desktop\ComputerCollectingWizard\bin\Debug\HtmlAgilityPack.xml
+C:\Users\pc\Desktop\ComputerCollectingWizard\obj\Debug\ComputerCollectingWizard.csprojAssemblyReference.cache
+C:\Users\pc\Desktop\ComputerCollectingWizard\obj\Debug\ComputerCollectingWizard.Login.resources
+C:\Users\pc\Desktop\ComputerCollectingWizard\obj\Debug\ComputerCollectingWizard.Main.resources
+C:\Users\pc\Desktop\ComputerCollectingWizard\obj\Debug\ComputerCollectingWizard.Pages.MenuPages.AllinOnePage.resources
+C:\Users\pc\Desktop\ComputerCollectingWizard\obj\Debug\ComputerCollectingWizard.Pages.DesktopPage.resources
+C:\Users\pc\Desktop\ComputerCollectingWizard\obj\Debug\ComputerCollectingWizard.Pages.MenuPages.GeForcePage.resources
+C:\Users\pc\Desktop\ComputerCollectingWizard\obj\Debug\ComputerCollectingWizard.Pages.MenuPages.HomePage.resources
+C:\Users\pc\Desktop\ComputerCollectingWizard\obj\Debug\ComputerCollectingWizard.Pages.MenuPages.LaptopPage.resources
+C:\Users\pc\Desktop\ComputerCollectingWizard\obj\Debug\ComputerCollectingWizard.Properties.Resources.resources
+C:\Users\pc\Desktop\ComputerCollectingWizard\obj\Debug\ComputerCollectingWizard.Register.resources
+C:\Users\pc\Desktop\ComputerCollectingWizard\obj\Debug\ComputerCollectingWizard.csproj.GenerateResource.cache
+C:\Users\pc\Desktop\ComputerCollectingWizard\obj\Debug\ComputerCollectingWizard.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\ComputerCollectingWizard\obj\Debug\ComputerCollectingWizard.TrustInfo.xml
+C:\Users\pc\Desktop\ComputerCollectingWizard\obj\Debug\ComputerCollectingWizard.exe.manifest
+C:\Users\pc\Desktop\ComputerCollectingWizard\obj\Debug\ComputerCollectingWizard.application
+C:\Users\pc\Desktop\ComputerCollectingWizard\obj\Debug\ComputerCollectingWizard.csproj.CopyComplete
+C:\Users\pc\Desktop\ComputerCollectingWizard\obj\Debug\ComputerCollectingWizard.exe
+C:\Users\pc\Desktop\ComputerCollectingWizard\obj\Debug\ComputerCollectingWizard.pdb

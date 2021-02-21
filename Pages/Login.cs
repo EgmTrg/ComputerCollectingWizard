@@ -14,7 +14,6 @@ namespace ComputerCollectingWizard
     public partial class Login : Form
     {
         SqlConnection sql = new SqlConnection(@"Data Source=EGEMEN-PC\SQLEXPRESS;Initial Catalog=ComputerCollectingWizard;Integrated Security=True");
-
         public Login()
         {
             InitializeComponent();

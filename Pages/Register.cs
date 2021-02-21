@@ -40,8 +40,8 @@ namespace ComputerCollectingWizard
                 cmd.Parameters.AddWithValue("@p1", textBox1.Text);
                 cmd.Parameters.AddWithValue("@p2", textBox2.Text);
                 cmd.Parameters.AddWithValue("@p3", textBox4.Text);
-                //cmd.Parameters.AddWithValue("@p4", textBox4.Text);
-                //cmd.ExecuteNonQuery();
+                cmd.Parameters.AddWithValue("@p4", textBox4.Text);
+                cmd.ExecuteNonQuery();
                 MessageBox.Show("Added!");
             }
             catch (Exception ex)

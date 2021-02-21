@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ComputerCollectingWizard.exe" size="2533888">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ComputerCollectingWizard.exe" size="2754048">
       <assemblyIdentity name="ComputerCollectingWizard" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>H2NsqIdj8kX3WiY6wdYckvDpphedTlyMZbSJinXCeBI=</dsig:DigestValue>
+        <dsig:DigestValue>JiYc1Hhjt5k/VcMweVw0Z0GhMR9eISKx3rI9HjqpkMU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
