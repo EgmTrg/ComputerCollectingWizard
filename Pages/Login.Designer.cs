@@ -30,8 +30,8 @@ namespace ComputerCollectingWizard
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.username_Textbox = new System.Windows.Forms.TextBox();
+            this.password_Textbox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.login_iconbutton = new FontAwesome.Sharp.IconButton();
@@ -45,23 +45,23 @@ namespace ComputerCollectingWizard
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // textBox1
+            // username_Textbox
             // 
-            this.textBox1.BackColor = System.Drawing.Color.Snow;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textBox1.Location = new System.Drawing.Point(151, 54);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(247, 31);
-            this.textBox1.TabIndex = 1;
+            this.username_Textbox.BackColor = System.Drawing.Color.Snow;
+            this.username_Textbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.username_Textbox.Location = new System.Drawing.Point(151, 54);
+            this.username_Textbox.Name = "username_Textbox";
+            this.username_Textbox.Size = new System.Drawing.Size(247, 31);
+            this.username_Textbox.TabIndex = 1;
             // 
-            // textBox2
+            // password_Textbox
             // 
-            this.textBox2.BackColor = System.Drawing.Color.Snow;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textBox2.Location = new System.Drawing.Point(151, 96);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(247, 31);
-            this.textBox2.TabIndex = 2;
+            this.password_Textbox.BackColor = System.Drawing.Color.Snow;
+            this.password_Textbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.password_Textbox.Location = new System.Drawing.Point(151, 96);
+            this.password_Textbox.Name = "password_Textbox";
+            this.password_Textbox.Size = new System.Drawing.Size(247, 31);
+            this.password_Textbox.TabIndex = 2;
             // 
             // label1
             // 
@@ -186,8 +186,8 @@ namespace ComputerCollectingWizard
             this.Controls.Add(this.login_iconbutton);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.password_Textbox);
+            this.Controls.Add(this.username_Textbox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Login";
@@ -202,8 +202,8 @@ namespace ComputerCollectingWizard
         }
 
         #endregion
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox username_Textbox;
+        private System.Windows.Forms.TextBox password_Textbox;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private FontAwesome.Sharp.IconButton login_iconbutton;

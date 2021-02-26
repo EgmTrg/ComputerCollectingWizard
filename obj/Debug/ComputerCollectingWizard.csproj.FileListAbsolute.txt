@@ -52,3 +52,4 @@ C:\Users\pc\Desktop\ComputerCollectingWizard\obj\Debug\ComputerCollectingWizard.
 C:\Users\pc\Desktop\ComputerCollectingWizard\obj\Debug\ComputerCollectingWizard.csproj.CopyComplete
 C:\Users\pc\Desktop\ComputerCollectingWizard\obj\Debug\ComputerCollectingWizard.exe
 C:\Users\pc\Desktop\ComputerCollectingWizard\obj\Debug\ComputerCollectingWizard.pdb
+C:\Users\pc\Desktop\ComputerCollectingWizard\bin\Debug\ComputerCollectingWizard.mdb

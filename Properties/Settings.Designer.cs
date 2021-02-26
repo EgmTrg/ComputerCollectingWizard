@@ -33,5 +33,16 @@ namespace ComputerCollectingWizard.Properties {
                 return ((string)(this["dbConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\\ComputerCollectingWi" +
+            "zard.mdb")]
+        public string ComputerCollectingWizardConnectionString_ACCESS {
+            get {
+                return ((string)(this["ComputerCollectingWizardConnectionString_ACCESS"]));
+            }
+        }
     }
 }
