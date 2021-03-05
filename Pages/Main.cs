@@ -10,9 +10,9 @@ namespace ComputerCollectingWizard
 {
     public partial class Main : Form
     {
-        //GLOBAL VARIABLES:
+        #region Global Variables for this page
         private Form validPage;
-        //END OF GLOBAL VARIABLES
+        #endregion
         #region Moveable App Panel and Header Buttons Code.
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
         private extern static void ReleaseCapture();

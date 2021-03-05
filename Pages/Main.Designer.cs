@@ -47,10 +47,10 @@ namespace ComputerCollectingWizard
             this.Logo_Panel = new System.Windows.Forms.Panel();
             this.Logo_ıconButton = new FontAwesome.Sharp.IconButton();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.PageController_Panel = new System.Windows.Forms.Panel();
-            this.usd_label = new System.Windows.Forms.Label();
             this.euro_label = new System.Windows.Forms.Label();
             this.time_label = new System.Windows.Forms.Label();
+            this.usd_label = new System.Windows.Forms.Label();
+            this.PageController_Panel = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.Menu_Panel.SuspendLayout();
@@ -374,25 +374,6 @@ namespace ComputerCollectingWizard
             this.panel3.Size = new System.Drawing.Size(838, 33);
             this.panel3.TabIndex = 7;
             // 
-            // PageController_Panel
-            // 
-            this.PageController_Panel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PageController_Panel.Location = new System.Drawing.Point(246, 68);
-            this.PageController_Panel.Name = "PageController_Panel";
-            this.PageController_Panel.Size = new System.Drawing.Size(838, 616);
-            this.PageController_Panel.TabIndex = 8;
-            // 
-            // usd_label
-            // 
-            this.usd_label.AutoSize = true;
-            this.usd_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.usd_label.ForeColor = System.Drawing.Color.White;
-            this.usd_label.Location = new System.Drawing.Point(192, 3);
-            this.usd_label.Name = "usd_label";
-            this.usd_label.Size = new System.Drawing.Size(114, 20);
-            this.usd_label.TabIndex = 0;
-            this.usd_label.Text = "LIVE DOLLAR";
-            // 
             // euro_label
             // 
             this.euro_label.AutoSize = true;
@@ -414,6 +395,25 @@ namespace ComputerCollectingWizard
             this.time_label.Size = new System.Drawing.Size(47, 20);
             this.time_label.TabIndex = 0;
             this.time_label.Text = "TIME";
+            // 
+            // usd_label
+            // 
+            this.usd_label.AutoSize = true;
+            this.usd_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.usd_label.ForeColor = System.Drawing.Color.White;
+            this.usd_label.Location = new System.Drawing.Point(192, 3);
+            this.usd_label.Name = "usd_label";
+            this.usd_label.Size = new System.Drawing.Size(114, 20);
+            this.usd_label.TabIndex = 0;
+            this.usd_label.Text = "LIVE DOLLAR";
+            // 
+            // PageController_Panel
+            // 
+            this.PageController_Panel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PageController_Panel.Location = new System.Drawing.Point(246, 68);
+            this.PageController_Panel.Name = "PageController_Panel";
+            this.PageController_Panel.Size = new System.Drawing.Size(838, 616);
+            this.PageController_Panel.TabIndex = 8;
             // 
             // Main
             // 
