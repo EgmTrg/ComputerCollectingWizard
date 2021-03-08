@@ -42,12 +42,12 @@ namespace ComputerCollectingWizard
             this.label6 = new System.Windows.Forms.Label();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
+            this.nameSurname_textBox = new System.Windows.Forms.TextBox();
+            this.username_textBox = new System.Windows.Forms.TextBox();
+            this.email_textBox = new System.Windows.Forms.TextBox();
+            this.email2_textBox = new System.Windows.Forms.TextBox();
+            this.password_maskedTextBox = new System.Windows.Forms.MaskedTextBox();
+            this.password2_maskedTextBox = new System.Windows.Forms.MaskedTextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -201,55 +201,55 @@ namespace ComputerCollectingWizard
             this.label7.TabIndex = 7;
             this.label7.Text = "Tekrar E-mail:";
             // 
-            // textBox1
+            // nameSurname_textBox
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
-            this.textBox1.Location = new System.Drawing.Point(147, 50);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(238, 31);
-            this.textBox1.TabIndex = 0;
+            this.nameSurname_textBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
+            this.nameSurname_textBox.Location = new System.Drawing.Point(147, 50);
+            this.nameSurname_textBox.Name = "nameSurname_textBox";
+            this.nameSurname_textBox.Size = new System.Drawing.Size(238, 31);
+            this.nameSurname_textBox.TabIndex = 0;
             // 
-            // textBox2
+            // username_textBox
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
-            this.textBox2.Location = new System.Drawing.Point(147, 87);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(238, 31);
-            this.textBox2.TabIndex = 1;
+            this.username_textBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
+            this.username_textBox.Location = new System.Drawing.Point(147, 87);
+            this.username_textBox.Name = "username_textBox";
+            this.username_textBox.Size = new System.Drawing.Size(238, 31);
+            this.username_textBox.TabIndex = 1;
             // 
-            // textBox3
+            // email_textBox
             // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
-            this.textBox3.Location = new System.Drawing.Point(147, 198);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(238, 31);
-            this.textBox3.TabIndex = 4;
+            this.email_textBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
+            this.email_textBox.Location = new System.Drawing.Point(147, 198);
+            this.email_textBox.Name = "email_textBox";
+            this.email_textBox.Size = new System.Drawing.Size(238, 31);
+            this.email_textBox.TabIndex = 4;
             // 
-            // textBox4
+            // email2_textBox
             // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
-            this.textBox4.Location = new System.Drawing.Point(147, 235);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(238, 31);
-            this.textBox4.TabIndex = 5;
+            this.email2_textBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
+            this.email2_textBox.Location = new System.Drawing.Point(147, 235);
+            this.email2_textBox.Name = "email2_textBox";
+            this.email2_textBox.Size = new System.Drawing.Size(238, 31);
+            this.email2_textBox.TabIndex = 5;
             // 
-            // maskedTextBox1
+            // password_maskedTextBox
             // 
-            this.maskedTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
-            this.maskedTextBox1.Location = new System.Drawing.Point(147, 124);
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.PasswordChar = '*';
-            this.maskedTextBox1.Size = new System.Drawing.Size(239, 31);
-            this.maskedTextBox1.TabIndex = 2;
+            this.password_maskedTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
+            this.password_maskedTextBox.Location = new System.Drawing.Point(147, 124);
+            this.password_maskedTextBox.Name = "password_maskedTextBox";
+            this.password_maskedTextBox.PasswordChar = '*';
+            this.password_maskedTextBox.Size = new System.Drawing.Size(239, 31);
+            this.password_maskedTextBox.TabIndex = 2;
             // 
-            // maskedTextBox2
+            // password2_maskedTextBox
             // 
-            this.maskedTextBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
-            this.maskedTextBox2.Location = new System.Drawing.Point(146, 161);
-            this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.PasswordChar = '*';
-            this.maskedTextBox2.Size = new System.Drawing.Size(239, 31);
-            this.maskedTextBox2.TabIndex = 3;
+            this.password2_maskedTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
+            this.password2_maskedTextBox.Location = new System.Drawing.Point(146, 161);
+            this.password2_maskedTextBox.Name = "password2_maskedTextBox";
+            this.password2_maskedTextBox.PasswordChar = '*';
+            this.password2_maskedTextBox.Size = new System.Drawing.Size(239, 31);
+            this.password2_maskedTextBox.TabIndex = 3;
             // 
             // Register
             // 
@@ -257,12 +257,12 @@ namespace ComputerCollectingWizard
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightGray;
             this.ClientSize = new System.Drawing.Size(425, 328);
-            this.Controls.Add(this.maskedTextBox2);
-            this.Controls.Add(this.maskedTextBox1);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.password2_maskedTextBox);
+            this.Controls.Add(this.password_maskedTextBox);
+            this.Controls.Add(this.email2_textBox);
+            this.Controls.Add(this.email_textBox);
+            this.Controls.Add(this.username_textBox);
+            this.Controls.Add(this.nameSurname_textBox);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.register_iconbutton);
@@ -299,11 +299,11 @@ namespace ComputerCollectingWizard
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox2;
+        private System.Windows.Forms.TextBox nameSurname_textBox;
+        private System.Windows.Forms.TextBox username_textBox;
+        private System.Windows.Forms.TextBox email_textBox;
+        private System.Windows.Forms.TextBox email2_textBox;
+        private System.Windows.Forms.MaskedTextBox password_maskedTextBox;
+        private System.Windows.Forms.MaskedTextBox password2_maskedTextBox;
     }
 }

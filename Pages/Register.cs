@@ -2,12 +2,15 @@
 using System;
 using System.Windows.Forms;
 using System.Collections.Generic;
+using System.Data.OleDb;
 
 namespace ComputerCollectingWizard
 {
     public partial class Register : Form
     {
         SqlConnection sql = new SqlConnection(@"Data Source=EGEMEN-PC\SQLEXPRESS;Initial Catalog=ComputerCollectingWizard;Integrated Security=True");
+
+        OleDbConnection oleDB = new OleDbConnection(@"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\ComputerCollectingWizard.mdb");
 
         public Register()
         {
@@ -31,8 +34,8 @@ namespace ComputerCollectingWizard
                 MessageBox.Show("Lutfen Alanlari Doldurunuz.");
                 return;
             }
-
-            try
+            #region SQL DB Commands
+            /*try
             {
                 sql.Open();
                 SqlCommand cmd = new SqlCommand(
@@ -51,17 +54,40 @@ namespace ComputerCollectingWizard
             finally
             {
                 sql.Close();
+            }*/
+            #endregion
+            #region ACCDB Kodlari
+            try
+            {
+                oleDB.Open();
+                OleDbCommand cmd = new OleDbCommand("insert into Accounts([Name/Surname],[Username],[Password],[Email]) values(@p1,@p2,@p3,@p4)", oleDB);
+                cmd.Parameters.AddWithValue("@p1",nameSurname_textBox.Text);
+                cmd.Parameters.AddWithValue("@p2",username_textBox.Text);
+                cmd.Parameters.AddWithValue("@p3",password_maskedTextBox.Text);
+                cmd.Parameters.AddWithValue("@p4",email_textBox.Text);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("Basariyla kayit olundu.");
+                this.Close();
             }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                oleDB.Close();
+            }
+            #endregion
         }
 
         private bool TextBoxController()
         {
             bool isFull = false;
             List<TextBox> tboxList = new List<TextBox>();
-            tboxList.Add(textBox1);
-            tboxList.Add(textBox2);
-            tboxList.Add(textBox3);
-            tboxList.Add(textBox4);
+            tboxList.Add(nameSurname_textBox);
+            tboxList.Add(username_textBox);
+            tboxList.Add(email_textBox);
+            tboxList.Add(email2_textBox);
             foreach (TextBox item in tboxList)
             {
                 if (isFull)
@@ -71,9 +97,9 @@ namespace ComputerCollectingWizard
             }
 
             if (
-                (!maskedTextBox1.Text.Equals(null) || !maskedTextBox2.Text.Equals(null))
+                (!password_maskedTextBox.Text.Equals(null) || !password2_maskedTextBox.Text.Equals(null))
                     && 
-                (!maskedTextBox1.Text.Equals(maskedTextBox2.Text) || !tboxList[2].Text.Equals(tboxList[3].Text))
+                (!password_maskedTextBox.Text.Equals(password2_maskedTextBox.Text) || !tboxList[2].Text.Equals(tboxList[3].Text))
                )
                 return true;
             return isFull;
